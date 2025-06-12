@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Note Title -->
+    <EditText
+        android:id="@+id/etNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note Title"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <!-- Category Spinner -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp" />
+
+    <!-- Note Description -->
+    <EditText
+        android:id="@+id/etNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note Description"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:minLines="2"
+        android:maxLines="2"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <!-- Additional Notes -->
+    <EditText
+        android:id="@+id/etAdditionalNote"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:gravity="top"
+        android:hint="Additional Notes"
+        android:inputType="textMultiLine"
+        android:maxLines="2"
+        android:minLines="2"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <!-- Speech-to-Text Button -->
+    <Button
+        android:id="@+id/btnSpeechToText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speech to Text"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add to Calendar Button -->
+    <Button
+        android:id="@+id/btnAddToCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Calendar"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Save and Cancel Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancelNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:backgroundTint="#BDBDBD"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnSaveNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Note"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

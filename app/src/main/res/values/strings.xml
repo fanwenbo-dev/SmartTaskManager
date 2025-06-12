@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_logo_description">Smart Task Manager Logo</string>
+    <string name="app_name">Smart Task Manager</string>
+    <string name="app_description">
+        Effortlessly manage tasks with voice-to-text input and stay organised on the go.
+    </string>
+</resources>
