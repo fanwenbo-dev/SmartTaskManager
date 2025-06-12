@@ -39,6 +39,9 @@ Designed with accessibility and usability in mind, SmartTaskManager caters to st
 - **Bottom Navigation Bar**  
   Easy navigation between Home, Calendar, and Settings sections.
 
+- **Demo video URL
+  https://drive.google.com/file/d/1lKR7D-8tfW37iaf7vEV2iiws0MNaIdZ0/view?usp=sharing
+
 ---
 
 ## Installation
